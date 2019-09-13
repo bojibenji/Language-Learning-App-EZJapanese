@@ -50,6 +50,7 @@ word is shown in Japanese <br/>
 (Romaji if beginner, Hiragana or Katanan if intermediate, & Kanji if advanced) <br/>
 Responses are made from multiple choices. <br/>
 Start over or reset button always available the quiz. <br/>
+<br/>
 **Icons:** <br/>
 for shuffle (mixes the word order), add (add new words), import (ability to import words from files such as .txt or csv), and export (csv or .txt).
 <br/>
@@ -57,6 +58,7 @@ for shuffle (mixes the word order), add (add new words), import (ability to impo
 User recording of their speech and compare with actual. (Would need to figure out how to do this?). 
 video that will ask user to interpret a scene
 answer is selected from multiple choices. <br/>
+<br/>
 **Code Architecture:** <br/> 
 For this project the goal is to create the app using Xamarin but if there’s too many roadblocks like major errors or limitations. The app will be created using Android Studio and will only feature the app for Android. 
 <br/>
