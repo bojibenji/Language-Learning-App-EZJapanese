@@ -54,6 +54,7 @@ Start over or reset button always available the quiz. <br/>
 **Icons:** <br/>
 for shuffle (mixes the word order), add (add new words), import (ability to import words from files such as .txt or csv), and export (csv or .txt).
 <br/>
+<br/>
 **optional features (if time permitting):** <br/>
 User recording of their speech and compare with actual. (Would need to figure out how to do this?). 
 video that will ask user to interpret a scene
