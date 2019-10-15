@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ezJapaneseBasic.lessonPlan.Beginner">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="This should show lessons 1-10 has buttons." 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+            <Button Text="Lesson 01"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked"></Button>
+
+            <Button Text="Lesson 02"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_1"></Button>
+
+            <Button Text="Lesson 03"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_2"></Button>
+
+            <Button Text="Lesson 04"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_3"></Button>
+
+            <Button Text="Lesson 05"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_4"></Button>
+
+            <Button Text="Lesson 06"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_5"></Button>
+
+            <Button Text="Lesson 07"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_6"></Button>
+
+            <Button Text="Lesson 08"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_7"></Button>
+
+            <Button Text="Lesson 09"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_8"></Button>
+
+            <Button Text="Lesson 10"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand" 
+              Clicked="Button_Clicked_9"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
