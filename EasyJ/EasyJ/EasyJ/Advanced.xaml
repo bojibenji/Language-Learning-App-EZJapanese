@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             Padding="0,20,0,20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyJ.Advanced">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="Center" Spacing="20">
+            <Label 
+			Text="Please select a lesson to begin."
+			TextColor="White"
+			FontSize="30" 
+			FontAttributes="Bold"  
+			HorizontalOptions="Center" />
+
+            
+            <Button 
+			Text="21 -  にじゅういち - Ni-jû-ichi"
+			TextColor="White"
+			BackgroundColor="#1dabf0"
+            Clicked="Button_Clicked"  />
+            <Button 
+			Text="22 - にじゅうに - Ni-jû-ni" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_1"  />
+            <Button 
+			Text="23 - さんじゅうさん - Ni-jû-san" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_2" />
+            <Button 
+			Text="24 - にじゅうよん -  Ni-jû-yon" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_3"  />
+            <Button 
+			Text="25 - さんじゅうご -  Ni-jû-go" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_4"    />
+            <Button 
+			Text="26 - にじゅうろく -  Ni-jû-roku" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_5"  />
+            <Button 
+			Text="27 - にじゅうしち - Ni-jû-shichi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_6"   />
+            <Button 
+			Text="28 - にじゅうはち - Ni-jû-hachi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_7"  />
+            <Button 
+			Text="29 - にじゅうきゅう - Ni-jû-kyû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_8"   />
+
+            <Button 
+			Text="30 - さんじゅう - San-jû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_9"   />
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

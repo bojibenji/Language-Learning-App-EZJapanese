@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             Padding="0,20,0,20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyJ.lesson25">
+    <ContentPage.Content>
+        <Grid>
+
+            <Label  
+            Grid.Row="0"
+            x:Name="currentQuote"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+			FontSize= "17" />
+
+            <Button 
+            Grid.Row="3"
+            Text="Next" 
+            TextColor="White"
+            FontSize="20"
+			BackgroundColor="#1dabf0" 
+            Clicked="Handle_Clicked" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             Padding="0,20,0,20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyJ.Intermediate">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="Center" Spacing="20">
+            <Label 
+			Text="Please select a lesson to begin."
+			TextColor="White"
+			FontSize="30" 
+			FontAttributes="Bold"  
+			HorizontalOptions="Center" />
+
+            <Button 
+			Text="11 -  じゅういち - Jû-ichi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked"  />
+            <Button 
+			Text="12 -  じゅうに - Jû-ni" 
+			TextColor="White"
+			BackgroundColor="#1dabf0"
+            Clicked="Button_Clicked_1" />
+            <Button 
+			Text="13 -  じゅうさん - Jû-san" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_2"  />
+            <Button 
+			Text="14 -  じゅうよん - Jû-yon" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_3" />
+            <Button 
+			Text="15 -  じゅうご - Jû-go" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_4"  />
+            <Button 
+			Text="16 -  じゅうろく - Jû-roku" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_5"    />
+            <Button 
+			Text="17 -  じゅうしち - Jû-shichi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_6"  />
+            <Button 
+			Text="18 -  じゅうはち - Jû-hachi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_7"   />
+            <Button 
+			Text="19 - じゅうきゅう - Jû-kyû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_8"  />
+            <Button 
+			Text="20 -  にじゅう - Ni-jû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_9"   />
+
+        </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

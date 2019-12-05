@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             Padding="0,20,0,20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyJ.Quiz">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+			Text="Sorry Quizzes Currrently unavailable."
+			TextColor="White"
+			FontSize="30" 
+			FontAttributes="Bold"  
+			HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

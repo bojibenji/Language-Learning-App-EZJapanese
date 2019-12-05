@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             Padding="0,20,0,20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyJ.beginner">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="Center" Spacing="20">
+            <Label 
+			Text="Please select a lesson to begin."
+			TextColor="White"
+			FontSize="30" 
+			FontAttributes="Bold"  
+			HorizontalOptions="Center" />
+            
+            <Button 
+			Text="1 -  いち -  Ichi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked"  />
+            <Button 
+			Text="2 -  に - Ni" 
+			TextColor="White"
+			BackgroundColor="#1dabf0"
+            Clicked="Button_Clicked_1"  />
+            <Button 
+			Text="3 -  さん - San" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_2"   />
+            <Button 
+			Text="4 -  よん - Yon" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_3" />
+            <Button 
+			Text="5 -  ご - Go" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_4"   />
+            <Button 
+			Text="6 -  ろく - Roku" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_5"    />
+            <Button 
+			Text="7 -  しち - Shichi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_6"  />
+            <Button 
+			Text="8 -  はち - Hachi" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_7"   />
+            <Button 
+			Text="9 -  きゅう - Kyû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_8"   />
+            <Button 
+			Text="10 -  じゅう - Jû" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_9"   />
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
