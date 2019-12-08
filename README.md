@@ -23,13 +23,13 @@ storage database – firebase or SQL <br/>
 -Beginner <br/>
 -Intermediate <br/>
 -Advanced <br/>
--Test Yourself (takes you directly into quiz mode) (on hold) <br/>
--Settings (import and export features) <br/>
+-Quiz <br/>
+
 <br/>
 **Based on selections of Beginner, Interm., and Advan.:** <br/>
 **Lessons:** 1 - 10 when lesson level is selected, it will show appropriate detail.
 Each lesson will have a study mode followed by a quiz mode.<br/>
-Quiz mode accesses how many words are remembered (freeze, burn). <br/>
+Quiz mode accesses how many words are remembered. <br/>
 Beginner is just words, numbers, calendar months, days of the week. <br/> 
 Level 1 10 words + Days of the week. <br/>
 Level 2 20 words + Calendar months. <br/>
@@ -41,31 +41,34 @@ Level 7 70 words. <br/>
 Level 8 80 words. <br/>
 Level 9 90 words. <br/>
 Level 10 100 words. <br/>
-User will be required to take a Quiz to get clearance for next stage. If you can burn all 10 levels, you move to intermediate. 
-Intermediate is words + phrases. Save setup, 10 levels, if burned through all 10 levels, move to advanced. 
-Advanced is conversational Japanese. If you passed all 10 levels, you should be able to understand the language and should be able to speak Japanese. <br/> 
 <br/>
 **Quizzing mode:** <br/>
-word is shown in Japanese <br/> 
-(Romaji if beginner, Hiragana or Katanan if intermediate, & Kanji if advanced) <br/>
-Responses are made from multiple choices. <br/>
-Start over or reset button always available the quiz. <br/>
-<br/>
+User can cycle through 3 different levels of quiz mode. Easy, Normal and Hard. 
+
+The quiz will automatically start over after completion. <br/>
+The quiz consists of 10 words each from the lessons. <br/>
 **Icons:** <br/>
-for shuffle (mixes the word order), add (add new words), import (ability to import words from files such as .txt or csv), and export (csv or .txt).
+(Not added: *Wishlist*)for shuffle (mixes the word order), add (add new words), import (ability to import words from files such as .txt or csv), and export (csv or .txt).
 <br/>
 <br/>
-**optional features (if time permitting):** <br/>
+**optional features:** <br/>
 User recording of their speech and compare with actual. (Would need to figure out how to do this?). 
 video that will ask user to interpret a scene
 answer is selected from multiple choices. <br/>
 <br/>
 **Code Architecture:** <br/> 
-For this project the goal is to create the app using Xamarin but if there’s too many roadblocks like major errors or limitations. The app will be created using Android Studio and will only feature the app for Android. 
+Xamarin is what's used to code this project. 
+
+**Download/ Setup Instructions: 
+In order to try the app out or see the code. You would need Visual Studios (Recommended). 
+<br/>
+Update the nugets if needed. Also download Xamarin.Forms.InputKit (This is for radio buttons). 
+<br/> 
+Lastly, have Android 9.0 version or higher. 
 <br/>
 <br/>
 **Platform:** IOS and Android <br/>
 **Primary IDE Option:** Visual Studio – Xamarin C# <br/> 
 **Secondary IDE Option:** Android Studio Java <br/>
-**Database:** Firebase or SQL 
+**Database:** None 
 
