@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "f1ea11656867c16ae77fc75bcb0b4ad046adb799"
+    "signature": "6c6fde2e706f380df3138c5f755f047a43bd0baf"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,8 @@
       "EasyJ/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "4.3.0.991221"
+          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.InputKit": "3.0.15"
         },
         "runtime": {
           "EasyJ.dll": {}
@@ -35,6 +36,17 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "4.3.0.389"
+          }
+        }
+      },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991221"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {
+            "assemblyVersion": "3.0.14.0",
+            "fileVersion": "3.0.14.0"
           }
         }
       }
@@ -66,6 +78,13 @@
       "sha512": "sha512-Yh3kxXj+fnERLZfh8gNbcFWflSL0PvPh3aHtq2tpXInInVNeWDUb0qitChUm2hgJSSOpn3MBa/55nxcqPM4Kog==",
       "path": "xamarin.forms/4.3.0.991221",
       "hashPath": "xamarin.forms.4.3.0.991221.nupkg.sha512"
+    },
+    "Xamarin.Forms.InputKit/3.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ea0ahzN2XwqswS3jvc1KMIcm7c+B+BEnyJdFptgd5Ml73015A7OKMzsnf3gzAodzVNZtrK/AGctJSbz5fkK6og==",
+      "path": "xamarin.forms.inputkit/3.0.15",
+      "hashPath": "xamarin.forms.inputkit.3.0.15.nupkg.sha512"
     }
   }
 }

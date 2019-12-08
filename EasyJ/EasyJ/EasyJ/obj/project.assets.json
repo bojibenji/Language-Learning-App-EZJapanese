@@ -42,6 +42,18 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {}
+        }
       }
     }
   },
@@ -437,12 +449,33 @@
         "xamarin.forms.4.3.0.991221.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Forms.InputKit/3.0.15": {
+      "sha512": "ea0ahzN2XwqswS3jvc1KMIcm7c+B+BEnyJdFptgd5Ml73015A7OKMzsnf3gzAodzVNZtrK/AGctJSbz5fkK6og==",
+      "type": "package",
+      "path": "xamarin.forms.inputkit/3.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.InputKit.dll",
+        "lib/monoandroid90/Plugin.InputKit.xml",
+        "lib/netstandard1.0/Plugin.InputKit.dll",
+        "lib/netstandard1.0/Plugin.InputKit.xml",
+        "lib/netstandard2.0/Plugin.InputKit.dll",
+        "lib/netstandard2.0/Plugin.InputKit.xml",
+        "lib/xamarin.ios10/Plugin.InputKit.dll",
+        "lib/xamarin.ios10/Plugin.InputKit.xml",
+        "readme.txt",
+        "xamarin.forms.inputkit.3.0.15.nupkg.sha512",
+        "xamarin.forms.inputkit.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Forms >= 4.3.0.991221"
+      "Xamarin.Forms >= 4.3.0.991221",
+      "Xamarin.Forms.InputKit >= 3.0.15"
     ]
   },
   "packageFolders": {
@@ -452,11 +485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj",
+      "projectUniqueName": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj",
       "projectName": "EasyJ",
-      "projectPath": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj",
+      "projectPath": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj",
       "packagesPath": "C:\\Users\\OG_boj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ\\obj\\",
+      "outputPath": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -495,6 +528,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.3.0.991221, )"
+          },
+          "Xamarin.Forms.InputKit": {
+            "target": "Package",
+            "version": "[3.0.15, )"
           }
         },
         "imports": [

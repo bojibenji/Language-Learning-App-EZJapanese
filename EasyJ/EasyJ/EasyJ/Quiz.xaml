@@ -1,18 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage BackgroundColor="#127ac7"
+<ContentPage
+    BackgroundColor="#127ac7"
              Padding="0,20,0,20"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EasyJ"
              x:Class="EasyJ.Quiz">
+
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="Center" Spacing="20">
             <Label 
-			Text="Sorry Quizzes Currrently unavailable."
+			Text="Test your knowledge!"
 			TextColor="White"
 			FontSize="30" 
 			FontAttributes="Bold"  
 			HorizontalOptions="Center" />
-
+            <Label 
+			Text="Select your difficulty:" 
+			TextColor="White"
+			FontSize="18" 
+			HorizontalOptions="Center" />
+            <Button 
+			Text="Easy" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked"    />
+            <Button 
+			Text="Normal" 
+			TextColor="White"
+			BackgroundColor="#1dabf0"
+            Clicked="Button_Clicked_1"    />
+            <Button 
+			Text="Hard" 
+			TextColor="White"
+			BackgroundColor="#1dabf0" 
+            Clicked="Button_Clicked_2"    />
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

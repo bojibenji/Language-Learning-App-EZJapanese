@@ -125,11 +125,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        }
+      },
       "EasyJ/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.991221"
+          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.InputKit": "3.0.15"
         },
         "compile": {
           "bin/placeholder/EasyJ.dll": {}
@@ -263,11 +276,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        }
+      },
       "EasyJ/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.991221"
+          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.InputKit": "3.0.15"
         },
         "compile": {
           "bin/placeholder/EasyJ.dll": {}
@@ -401,11 +427,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        }
+      },
       "EasyJ/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.991221"
+          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.InputKit": "3.0.15"
         },
         "compile": {
           "bin/placeholder/EasyJ.dll": {}
@@ -539,11 +578,24 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/3.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarin.ios10/Plugin.InputKit.dll": {}
+        }
+      },
       "EasyJ/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.991221"
+          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.InputKit": "3.0.15"
         },
         "compile": {
           "bin/placeholder/EasyJ.dll": {}
@@ -804,6 +856,26 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.InputKit/3.0.15": {
+      "sha512": "ea0ahzN2XwqswS3jvc1KMIcm7c+B+BEnyJdFptgd5Ml73015A7OKMzsnf3gzAodzVNZtrK/AGctJSbz5fkK6og==",
+      "type": "package",
+      "path": "xamarin.forms.inputkit/3.0.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.InputKit.dll",
+        "lib/monoandroid90/Plugin.InputKit.xml",
+        "lib/netstandard1.0/Plugin.InputKit.dll",
+        "lib/netstandard1.0/Plugin.InputKit.xml",
+        "lib/netstandard2.0/Plugin.InputKit.dll",
+        "lib/netstandard2.0/Plugin.InputKit.xml",
+        "lib/xamarin.ios10/Plugin.InputKit.dll",
+        "lib/xamarin.ios10/Plugin.InputKit.xml",
+        "readme.txt",
+        "xamarin.forms.inputkit.3.0.15.nupkg.sha512",
+        "xamarin.forms.inputkit.nuspec"
+      ]
+    },
     "EasyJ/1.0.0": {
       "type": "project",
       "path": "../EasyJ/EasyJ.csproj",
@@ -813,7 +885,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "EasyJ >= 1.0.0",
-      "Xamarin.Forms >= 4.3.0.991221"
+      "Xamarin.Forms >= 4.3.0.991221",
+      "Xamarin.Forms.InputKit >= 3.0.15"
     ]
   },
   "packageFolders": {
@@ -822,11 +895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ.iOS\\EasyJ.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ.iOS\\EasyJ.iOS.csproj",
       "projectName": "EasyJ.iOS",
-      "projectPath": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ.iOS\\EasyJ.iOS.csproj",
+      "projectPath": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ.iOS\\EasyJ.iOS.csproj",
       "packagesPath": "C:\\Users\\OG_boj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ.iOS\\obj\\",
+      "outputPath": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -843,8 +916,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj": {
-              "projectPath": "C:\\Users\\OG_boj\\source\\repos\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj"
+            "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj": {
+              "projectPath": "C:\\Users\\OG_boj\\Desktop\\boji_project\\EasyJ\\EasyJ\\EasyJ\\EasyJ.csproj"
             }
           }
         }
@@ -856,6 +929,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.3.0.991221, )"
+          },
+          "Xamarin.Forms.InputKit": {
+            "target": "Package",
+            "version": "[3.0.15, )"
           }
         }
       }

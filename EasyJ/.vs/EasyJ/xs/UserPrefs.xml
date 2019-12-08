@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{DFFDEFE1-5624-4A76-AD02-CAD801462EA4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EasyJ/EasyJ/QuizModel.cs">
+    <Files>
+      <File FileName="EasyJ/EasyJ/Quiz.xaml" Line="26" Column="10" />
+      <File FileName="EasyJ/EasyJ/QuizModel.cs" Line="133" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EasyJ" expanded="True">
+            <Node name="EasyJ" expanded="True">
+              <Node name="lesson3.xaml" expanded="True" />
+              <Node name="QuizModel.cs" selected="True" />
+            </Node>
+            <Node name="EasyJ.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EasyJ.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FCB0DC9-7029-4A2C-98E8-A96359420DCB" />
+  <MonoDevelop.Ide.ItemProperties.EasyJ.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_2_API_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/juliandsilva/Documents/GIT/Language-Learning-App-EZJapanese/EasyJ/EasyJ/EasyJ/gqs01yrc.ns9~" relfile="EasyJ/EasyJ/gqs01yrc.ns9~" line="16" column="1" />
+      <Breakpoint file="/Users/juliandsilva/Documents/GIT/Language-Learning-App-EZJapanese/EasyJ/EasyJ/EasyJ/gqs01yrc.ns9~" relfile="EasyJ/EasyJ/gqs01yrc.ns9~" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
